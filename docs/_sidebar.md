@@ -1,0 +1,3 @@
+- Documentation
+    - [Garyhax](docs.md)
+    - [Don't click me](hi.md)
