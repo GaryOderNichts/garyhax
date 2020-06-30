@@ -43,4 +43,4 @@ The date is specified as days since 2000-01-01
 
 * When played in Wii Mode the Titile ID is `ffff ffff ffff ffff` and the Played in Wii Mode flag is set
 
-<i>Created: 2020-06-30 by GaryOderNichts, Last edited: 2020-06-31 by GaryOderNichts</i>
+<i>Created: 2020-06-30 by GaryOderNichts, Last edited: 2020-07-01 by GaryOderNichts</i>
