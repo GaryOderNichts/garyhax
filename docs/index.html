@@ -13,10 +13,19 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'garyhax',
+      name: 'Garydocs',
+      repo: 'https://github.com/GaryOderNichts/garyhax',
       homepage: 'docs.md',
       loadSidebar: 'sidebar.md',
-      relativePath: true,
+      relativePath: false,
+      alias: {
+        '/':                              'docs.md',
+        '/docs':                          'docs.md',
+        '/nand-files/':                   'nand-files.md',  
+        '/nand-files/pdm':                'nand-files/pdm.md',   
+        '/nand-files/pdm/playdiary':      'nand-files/pdm/playdiary.md',
+        '/wii-nand-files/':               'wii-nand-files.md',  
+      }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
