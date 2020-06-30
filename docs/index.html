@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <!-- Theme: Simple Dark -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <link rel="stylesheet" href="assets/custom.css">
 </head>
 <body>
   <div id="app"></div>
@@ -16,18 +17,23 @@
       name: 'Garydocs',
       repo: 'https://github.com/GaryOderNichts/garyhax',
       homepage: 'docs.md',
-      loadSidebar: 'sidebar.md',
+      loadSidebar: true,
       relativePath: false,
+      maxLevel: 4,
+      subMaxLevel: 4,
       alias: {
         '/':                              'docs.md',
         '/docs':                          'docs.md',
-        '/nand-files/':                   'nand-files.md',  
-        '/nand-files/pdm':                'nand-files/pdm.md',   
+        '/nand-files':                    'nand-files.md',
+        '/nand-files/pdm':                'nand-files/pdm.md',
         '/nand-files/pdm/playdiary':      'nand-files/pdm/playdiary.md',
         '/wii-nand-files/':               'wii-nand-files.md',  
       }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+  <!-- plugins -->
+  <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script> 
 </body>
 </html>

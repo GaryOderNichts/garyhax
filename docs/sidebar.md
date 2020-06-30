@@ -1,5 +1,0 @@
-- [Garydocs](docs)
-- **Documentation**
-- [Wii U NAND Files](nand-files)
-    - [PDM](nand-files/pdm)
-- [Wii/vWii NAND Files](wii-nand-files)

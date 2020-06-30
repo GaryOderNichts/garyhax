@@ -1,3 +1,0 @@
-- **Wii U NAND Files**
-- [PDM](nand-files/pdm)
-    - [PlayDiary.dat](nand-files/pdm/playdiary)
