@@ -6,4 +6,6 @@
         * [PlayEvent.dat](nand-files/pdm/playevent)
         * [PlayLog.dat](nand-files/pdm/playlog)
         * [PlayStats.dat](nand-files/pdm/playstats)
+    * [Wii U Menu](nand-files/wiiu-menu)
+        * [BaristaIconDataBase.dat](nand-files/wiiu-menu/baristaicondatabase)
 * [Wii/vWii NAND Files](wii-nand-files)
