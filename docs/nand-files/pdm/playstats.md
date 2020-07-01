@@ -33,8 +33,7 @@ Using the `nn_pdm.rpl` library the following functions can be used to interact w
 | 2               | Last time played             |
 | 2               | Unknown (always 0000)        |   
 
-The `First time played` and `Last time played` is specified as days since 2000-01-01.
-
+The `First time played` and `Last time played` is specified as the amount of days since January 1st, 2000.
 <b>Notes:</b>
 
 * Filled with 0s for 256 entries.
