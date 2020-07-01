@@ -1,9 +1,10 @@
 # PlayStats.dat
-Full path: `/storage_mlc/usr/save/system/pdm/USERID/PlayStats.dat`  
-Stores overall play data about titles  
+Full path: `/storage_mlc/usr/save/system/pdm/USERID/PlayStats.dat`
+
+Stores overall play data about titles.
 <br>
 
-<h2>Library</h2>  
+<h2>Library</h2>
 
 Using the `nn_pdm.rpl` library the following functions can be used to interact with the file:  
 * `uint32_t GetPlayStatsMaxLength(uint32_t* outMaxLength)`
@@ -14,14 +15,14 @@ Using the `nn_pdm.rpl` library the following functions can be used to interact w
 
 <i>More info about the functions: https://github.com/devkitPro/wut/blob/master/include/nn/pdm/pdm_cpp.h</i>
 
-<h2>File Structure</h2>  
+<h2>File Structure</h2>
 
 | Size (in bytes)     | Description       |
 | ------------------- | ----------------- |
 | 4                   | Amount of Entries |
 | num * sizeof(entry) | Entries           |  
 
-<b>Entry structure:</b>  
+<b>Entry structure:</b>
 
 | Size (in bytes) | Description                  |
 | --------------- | ---------------------------- |
@@ -32,10 +33,10 @@ Using the `nn_pdm.rpl` library the following functions can be used to interact w
 | 2               | Last time played             |
 | 2               | Unknown (always 0000)        |   
 
-The First and Last time played is specified as days since 2000-01-01  
+The `First time played` and `Last time played` is specified as days since 2000-01-01.
 
-<b>Notes:</b>  
+<b>Notes:</b>
 
-* Filled with 0's for 256 Entries  
+* Filled with 0s for 256 entries.
 
-<i>Created: 2020-07-01 by GaryOderNichts, Last edited: never</i>
+<i>Created: 2020-07-01 by GaryOderNichts, Last edited: 2020-07-01 by NoahAbc12345</i>

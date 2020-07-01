@@ -1,11 +1,12 @@
 # PlayDiary.dat
-Full path: `/storage_mlc/usr/save/system/pdm/USERID/PlayDiary.dat`  
-Stores playtimes for titles
+Full path: `/storage_mlc/usr/save/system/pdm/USERID/PlayDiary.dat`
+
+Stores playtimes for titles.
 <br>
 
 <h2>Library</h2>  
 
-Using the `nn_pdm.rpl` library the following functions can be used to interact with the file:  
+Using the `nn_pdm.rpl` library the following functions can be used to interact with the file:
 * `uint32_t GetPlayDiaryMaxLength(uint32_t* outMaxLength)`
 * `uint32_t GetPlayDiaryLength(uint32_t* outLength, uint32_t userId)`
 * `uint32_t GetPlayDiaryStart(uint32_t* outStart, uint32_t userId)`
@@ -14,14 +15,14 @@ Using the `nn_pdm.rpl` library the following functions can be used to interact w
 
 <i>More info about the functions: https://github.com/devkitPro/wut/blob/master/include/nn/pdm/pdm_cpp.h</i>
 
-<h2>File Structure</h2>  
+<h2>File Structure</h2>
 
 | Size (in bytes)     | Description       |
 | ------------------- | ----------------- |
 | 8                   | Amount of Entries |
 | num * sizeof(entry) | Entries           |  
 
-<b>Entry structure:</b>  
+<b>Entry structure:</b>
 
 | Size (in bytes) | Description         |
 | --------------- | ------------------- |
@@ -30,9 +31,9 @@ Using the `nn_pdm.rpl` library the following functions can be used to interact w
 | 2               | Date                |
 | 2               | Flags               |   
 
-The date is specified as days since 2000-01-01
+The date is specified as the amount of days since January 1st, 2000.
 
-<b>Flags:</b>  
+<b>Flags:</b>
 
 | Flag | Description        |
 | ---- | ------------------ |
@@ -41,6 +42,6 @@ The date is specified as days since 2000-01-01
 
 <b>Notes:</b>  
 
-* When played in Wii Mode the Titile ID is `ffff ffff ffff ffff` and the Played in Wii Mode flag is set
+* When played in Wii Mode the title ID is `ffff ffff ffff ffff` and the `Played in Wii Mode` flag is set.
 
-<i>Created: 2020-06-30 by GaryOderNichts, Last edited: 2020-07-01 by GaryOderNichts</i>
+<i>Created: 2020-06-30 by GaryOderNichts, Last edited: 2020-07-01 by NoahAbc12345</i>
