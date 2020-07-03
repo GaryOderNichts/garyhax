@@ -1,8 +1,11 @@
 # BaristaIconDataBase.dat
-Full path:
-* JPN: `storage_mlc/usr/save/00050010/10040000/user/common/BaristaIconDataBase.dat`
-* USA: `storage_mlc/usr/save/00050010/10040100/user/common/BaristaIconDataBase.dat`
-* EUR: `storage_mlc/usr/save/00050010/10040200/user/common/BaristaIconDataBase.dat`
+<details>
+    <summary>Full path</summary>
+  
+- JPN `storage_mlc/usr/save/00050010/10040000/user/common/BaristaIconDataBase.dat`  
+- USA `storage_mlc/usr/save/00050010/10040100/user/common/BaristaIconDataBase.dat`  
+- EUR `storage_mlc/usr/save/00050010/10040200/user/common/BaristaIconDataBase.dat`  
+</details>
 
 Stores icons and metadata for installed titles.
 An entry gets created for every title that has been launched at least once on the system.

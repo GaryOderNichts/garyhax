@@ -2,9 +2,9 @@
 <details>
     <summary>Full paths</summary>
 
-        - JPN storage_mlc/user/save/00050010/1004A000/user/common/db/FFL_ODB.dat
-        - USA storage_mlc/user/save/00050010/1004A100/user/common/db/FFL_ODB.dat  
-        - EUR storage_mlc/user/save/00050010/1004A200/user/common/db/FFL_ODB.dat  
+- JPN `storage_mlc/user/save/00050010/1004A000/user/common/db/FFL_ODB.dat`
+- USA `storage_mlc/user/save/00050010/1004A100/user/common/db/FFL_ODB.dat` 
+- EUR `storage_mlc/user/save/00050010/1004A200/user/common/db/FFL_ODB.dat`  
 </details>
 
 Stores the user created Miis.  
