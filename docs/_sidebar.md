@@ -8,6 +8,7 @@
         * [PlayStats.dat](nand-files/pdm/playstats)
     * [Wii U Menu](nand-files/wiiu-menu)
         * [BaristaIconDataBase.dat](nand-files/wiiu-menu/baristaicondatabase)
+        * [1stNUP.xml](nand-files/wiiu-menu/1stnup)
     * [Mii Data](nand-files/mii-data)
         * [FFL_ODB.dat](nand-files/mii-data/ffl-odb)
 * [Wii/vWii NAND Files](wii-nand-files)

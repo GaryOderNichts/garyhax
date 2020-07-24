@@ -1,32 +1,9 @@
-# FFL_ODB.dat
-<details>
-    <summary>Full paths</summary>
+# 1stNUP.xml
 
-- JPN `storage_mlc/user/save/00050010/1004A000/user/common/db/FFL_ODB.dat`
-- USA `storage_mlc/user/save/00050010/1004A100/user/common/db/FFL_ODB.dat` 
-- EUR `storage_mlc/user/save/00050010/1004A200/user/common/db/FFL_ODB.dat`  
-</details>
+Stores what is displayed on the Wara Wara Plaza
 
-Stores the user created Miis.  
-The `FFL_ODB_OLD.dat` seems to be an old or backuped version of that file that gets created for unknown reasons.
-
-<h2>File Structure</h2>
-
-| Size (in bytes)     | Description       |
-| ------------------- | ----------------- |
-| 8                   | FFOC Header       |
-| ? * sizeof(entry)   | Entries           |  
-| 2                   | Checksum          |  
-
-Note: The maximum amount of data is unknown.   
-There are some undocumented bytes near the end of the file.
-<br>  
-The checksum is always the last 2 bytes of the file.  
-The checksum can be calculated using a small tool I've written.  
-You can find that tool [here](https://github.com/GaryOderNichts/wiiu-miidata-checksum-fixer).<br>
-You need to calculate the checksum to make the file work on actual hardware.
-
-<b>Entry structure:</b>
+<b>Mii structure:</b>  
+Mii's are stored as base64 encoded bytes using the following structure:
 
 | Size (in bits!) | Description         |
 | --------------- | ------------------- |
@@ -99,8 +76,11 @@ You need to calculate the checksum to make the file work on actual hardware.
 | 4 | mole_scale        |
 | 1 | mole_enabled      |
 | 160 | creator_name     |
+| 16 | unk_0x5C         |
+| 16 | checksum         |
 
-Total size: 92 bytes
+Total size: 96 bytes  
+The checksum can be calculated using this: https://garyhax.tech/docs/assets/files/plaza_fixer.c  
 
 <b>CreateIdFlags:</b>
 
@@ -112,4 +92,4 @@ Total size: 92 bytes
 
 <i>Credits to decaf-emu for parts of the entry structure: https://github.com/decaf-emu/decaf-emu/blob/master/src/libdecaf/src/nn/ffl/nn_ffl_miidata.h</i>
 <br><br>
-<i>Created: 2020-07-03 by GaryOderNichts, Last edited: 2020-07-24 by GaryOderNichts</i>
+<i>Created: 2020-07-24 by GaryOderNichts, Last edited: never</i>
